@@ -6,4 +6,4 @@ All files were created and compiled on Ubuntu 20.04
 
 Authors
 Anthonia Godwin and
-Chris Olabode
+Chris Olabode.
