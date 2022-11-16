@@ -201,6 +201,12 @@ int populate_env_list(info_t *);
 
 /* env2.c module */
 char **get_environ(info_t *);
+char **get_environ(info_t *info);
+int _setenv(info_t *info, char *var, char *value);
+char **get_environ(info_t *info);
+int _unsetenv(info_t *info, char *var);
+int _setenv(info_t *info, char *var, char *value);
+int _unsetenv(info_t *info, char *var);
 int _unsetenv(info_t *, char *);
 int _setenv(info_t *, char *, char *);
 
